@@ -186,6 +186,7 @@ nav .nav-res i {
   width: 80%;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .cash .cash-card {
@@ -205,7 +206,7 @@ nav .nav-res i {
 /* offers */
 .offers {
     width: 90%;
-    margin: 50px auto 30px;
+    margin: 35px auto 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -277,4 +278,98 @@ footer {
     padding: 10px 0;
     font-size: 30px;
     font-weight: bold;
+}
+
+.shape-selection {
+  margin: 20px;
+}
+
+.shape-selection .row {
+  justify-content: space-between;
+}
+
+.shape-selection .shape-item {
+  background: #1161ac;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 27px 0;
+  text-align: center;
+}
+
+.shape-selection a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.why-buy .row {
+  align-items: center;
+}
+
+.why-buy .why-buy-image img {
+  display: block;
+  float: left;
+  width: 85%;
+}
+.why-buy .why-buy-text {
+  padding: 57px;
+  background: #d4eeff;
+  border: 2px solid #009afc;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 2;
+}
+
+.phone-numbers-prices .row {
+  justify-content: space-around;
+}
+
+.phone-number-price {
+  background-color: #DBF1FF;
+  border: 2px solid #1161ac;
+  padding: 30px;
+  position: relative;
+  border-radius: 30px;
+  transform: skew(-7deg);
+  text-align: center;
+}
+.phone-number-price h6 {
+  background: #0d6efd;
+  width: 100%;
+  padding: 7px 0;
+  border-radius: 17px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+}
+
+.phone-number-price p {
+  margin: 15px auto;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.v-number {
+  background: #C80000;
+  margin-top: 22px !important;
+}
+.o-number {
+  background: #FB5000;
+}
+
+.e-number {
+  background: #649600;
+}
+
+.phone-number-price .more {
+  width: 85%;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #0099ff;
+  font-size: 25px;
 }
