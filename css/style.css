@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    overflow-x: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none !important;
+}
+
+hr {
+    border-top: 3px solid #0099FF;
+    width: 80%;
+    margin: 0px auto 40px;
+}
+/* Navbar */
+nav {
+    background-color: white;
+}
+
+nav .logo, nav .nav-content, nav .nav-res {
+    float: right;
+}
+
+nav .logo {
+    width: 15%;
+    margin-top: 20px;
+}
+
+nav .logo img {
+    width: 100%;
+}
+nav .nav-content {
+    width: 79%;
+    text-align: right;
+    background-color: #0099FF;
+    margin: 15px 10px;
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+nav .nav-content a {
+    margin: 0px 12px;
+}
+nav .nav-content .squares{
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+nav .nav-content .square {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0px 6px;
+}
+
+nav .nav-content input {
+    border-radius: 25px;
+    border: 0;
+    padding: 8px;
+    margin: 0px 3px 0px 10px;
+}
+
+nav .nav-res {
+    width: 3%;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+nav .nav-res i {
+    font-size: 50px;
+    color: #0099FF;
+}
+
+
+/* Networks */
+.network {
+    width: 65%;
+    margin: auto;
+}
+
+.network .card-net {
+    width: 22%;
+    margin: 0 15px;
+    padding: 15px 20px;
+
+}
+.card-net-vodafone,
+.card-net-orange, 
+.card-net-etisalat, 
+.card-net-we {
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 350px;
+    text-align: right;
+}
+.card-net-vodafone {
+    border: 2px solid #FE2346;
+}
+.card-net-orange {
+    border: 2px solid #FC580E;
+}
+.card-net-etisalat {
+    border: 2px solid #699800
+}
+.card-net-we {
+  border: 2px solid #8244A2;
+}
+
+.card-net-vodafone span,
+.card-net-orange span,
+.card-net-etisalat span,
+.card-net-we span
+{
+    
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.card-net-vodafone span{
+    border-bottom: 1px solid #fe2346;
+    color: #fe2346;
+}
+.card-net-orange span {
+  border-bottom: 1px solid #FC580E;
+  color: #FC580E;
+}
+
+.card-net-etisalat span {
+  border-bottom: 1px solid #699800;
+  color: #699800;
+}
+
+.card-net-we span {
+  border-bottom: 1px solid #8244A2;
+  color: #8244A2;
+}
+
+
+.card-net-vodafone li,
+.card-net-orange li,
+.card-net-etisalat li,
+.card-net-we li {
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-net-vodafone li {
+  border-bottom: 1px solid #fe2346;
+}
+.card-net-orange li {
+  border-bottom: 1px solid #fc580e;
+}
+
+.card-net-etisalat li {
+  border-bottom: 1px solid #699800;
+}
+
+.card-net-we li {
+  border-bottom: 1px solid #8244a2;
+}
+
+/* cash */
+.cash {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.cash .cash-card {
+    width: 225px;
+    height: 175px;
+    border-radius: 20px;
+    border: 2px solid #BDBCBA;
+    padding: 0px;
+}
+.cash .cash-card img {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+/* offers */
+.offers {
+    width: 90%;
+    margin: 50px auto 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.offers .offer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg,rgb(38, 129, 248) 0%,rgb(118, 196, 248) 39%,rgba(8, 156, 185, 0.137) 100%);
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 27px;
+    line-height: 1;
+    width: 30%;
+    
+}
+
+.offers .offer .offer-img{
+    border-radius: 25px;
+}
+
+.offers .offer .offer-img img {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-radius: 25px;
+
+}
+
+.offers .offer .offer-content {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.all-offers button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #0099FF;
+    font-weight: bold;
+    color: white
+}
+
+.space {
+    height: 450px
+}
+
+.slogo span {
+    color: #0099FF;
+}
+
+.slogo p {
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.about-us {
+    background-color: #0099ff;
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    text-align: center;
+    padding: 70px 0;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
