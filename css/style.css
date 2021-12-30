@@ -1,190 +1,186 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Noto Sans Arabic', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  overflow-x: hidden;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    color: white;
-    text-decoration: none !important;
+  color: white;
+  text-decoration: none !important;
 }
 
 hr {
-    border-top: 3px solid #0099FF;
-    width: 80%;
-    margin: 0px auto 40px;
+  border-top: 3px solid #0099ff;
+  width: 80%;
+  margin: 0px auto 40px;
 }
 
 .row {
-    margin-right: 0 !important; 
-    margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 /* Navbar */
 nav {
-    background-color: white;
+  background-color: white;
 }
 
-nav .logo, nav .nav-content, nav .nav-res {
-    float: right;
+nav .logo,
+nav .nav-content,
+nav .nav-res {
+  float: right;
 }
 
 nav .logo {
-    width: 15%;
-    margin-top: 20px;
+  width: 15%;
+  margin-top: 20px;
 }
 
 nav .logo img {
-    width: 100%;
+  width: 100%;
 }
 nav .nav-content {
-    width: 79%;
-    text-align: right;
-    background-color: #0099FF;
-    margin: 15px 10px;
-    padding: 10px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+  width: 79%;
+  text-align: right;
+  background-color: #0099ff;
+  margin: 15px 10px;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 nav .nav-content a {
-    margin: 0px 12px;
+  margin: 0px 12px;
 }
-nav .nav-content .squares{
-    float: left;
-    margin-top: 5px;
-    margin-left: 15px;
+nav .nav-content .squares {
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
 }
 nav .nav-content .square {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    display: inline-block;
-    border-radius: 5px;
-    margin: 0px 6px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 6px;
 }
 
 nav .nav-content input {
-    border-radius: 25px;
-    border: 0;
-    padding: 8px;
-    margin: 0px 3px 0px 10px;
+  border-radius: 25px;
+  border: 0;
+  padding: 8px;
+  margin: 0px 3px 0px 10px;
 }
 
 nav .nav-res {
-    width: 3%;
-    text-align: left;
-    margin-top: 20px;
-
+  width: 3%;
+  text-align: left;
+  margin-top: 20px;
 }
 
 nav .nav-res i {
-    font-size: 50px;
-    color: #0099FF;
+  font-size: 50px;
+  color: #0099ff;
 }
 
 /* special */
 .special {
-    width: 80%;
-    margin: 0 auto 50px;
-    border: 3px solid #0099FF;
-    border-radius: 25px;
-    padding: 10px 20px;
-    color: #0099FF;
-    position: relative;
-    margin-top: 70px;
+  width: 80%;
+  margin: 0 auto 50px;
+  border: 3px solid #0099ff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #0099ff;
+  position: relative;
+  margin-top: 70px;
 }
 
 .special legend {
-    position: absolute;
-    left: 42%;
-    width: 20%;
-    color: white;
-    background-color: #0099FF;
-    text-align: center;
-    top: -13%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    font-size: 20px;
-
+  position: absolute;
+  left: 42%;
+  width: 20%;
+  color: white;
+  background-color: #0099ff;
+  text-align: center;
+  top: -13%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  font-size: 20px;
 }
 
 .special .spe-img {
-    width: 35%;
+  width: 35%;
 }
 
 .special .spe-content {
-    font-size: 27px;
-    font-weight: bold;
-    align-self: center;
-    margin-right: 25px;
+  font-size: 27px;
+  font-weight: bold;
+  align-self: center;
+  margin-right: 25px;
 }
 
 /* Networks */
 .network {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 .network .card-net {
-    width: 22%;
-    margin: 0 15px;
-    padding: 15px 20px;
-
+  width: 22%;
+  margin: 0 15px;
+  padding: 15px 20px;
 }
 .card-net-vodafone,
-.card-net-orange, 
-.card-net-etisalat, 
+.card-net-orange,
+.card-net-etisalat,
 .card-net-we {
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    height: 350px;
-    text-align: right;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  height: 350px;
+  text-align: right;
 }
 .card-net-vodafone {
-    border: 2px solid #FE2346;
+  border: 2px solid #fe2346;
 }
 .card-net-orange {
-    border: 2px solid #FC580E;
+  border: 2px solid #fc580e;
 }
 .card-net-etisalat {
-    border: 2px solid #699800
+  border: 2px solid #699800;
 }
 .card-net-we {
-  border: 2px solid #8244A2;
+  border: 2px solid #8244a2;
 }
 
 .card-net-vodafone span,
 .card-net-orange span,
 .card-net-etisalat span,
-.card-net-we span
-{
-    
-    font-size: 20px;
-    font-weight: bold;
-    
+.card-net-we span {
+  font-size: 20px;
+  font-weight: bold;
 }
-.card-net-vodafone span{
-    border-bottom: 1px solid #fe2346;
-    color: #fe2346;
+.card-net-vodafone span {
+  border-bottom: 1px solid #fe2346;
+  color: #fe2346;
 }
 .card-net-orange span {
-  border-bottom: 1px solid #FC580E;
-  color: #FC580E;
+  border-bottom: 1px solid #fc580e;
+  color: #fc580e;
 }
 
 .card-net-etisalat span {
@@ -193,18 +189,17 @@ nav .nav-res i {
 }
 
 .card-net-we span {
-  border-bottom: 1px solid #8244A2;
-  color: #8244A2;
+  border-bottom: 1px solid #8244a2;
+  color: #8244a2;
 }
-
 
 .card-net-vodafone li,
 .card-net-orange li,
 .card-net-etisalat li,
 .card-net-we li {
-    font-size: 22px;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .card-net-vodafone li {
@@ -231,94 +226,96 @@ nav .nav-res i {
 }
 
 .cash .cash-card {
-    width: 225px;
-    height: 175px;
-    border-radius: 20px;
-    border: 2px solid #BDBCBA;
-    padding: 0px;
+  width: 225px;
+  height: 175px;
+  border-radius: 20px;
+  border: 2px solid #bdbcba;
+  padding: 0px;
 }
 .cash .cash-card img {
-    width: 100%;
-    height: 100%;
-    padding: 1px;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  border-radius: 20px;
 }
 
 /* offers */
 .offers {
-    width: 90%;
-    margin: 35px auto 30px;
-    display: flex;
-    justify-content: space-around;
+  width: 90%;
+  margin: 35px auto 30px;
+  display: flex;
+  justify-content: space-around;
 }
 .offers .offer {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg,rgb(38, 129, 248) 0%,rgb(118, 196, 248) 39%,rgba(8, 156, 185, 0.137) 100%);
-    padding: 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 27px;
-    line-height: 1;
-    width: 30%;
-    
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(38, 129, 248) 0%,
+    rgb(118, 196, 248) 39%,
+    rgba(8, 156, 185, 0.137) 100%
+  );
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 27px;
+  line-height: 1;
+  width: 30%;
 }
 
-.offers .offer .offer-img{
-    border-radius: 25px;
+.offers .offer .offer-img {
+  border-radius: 25px;
 }
 
 .offers .offer .offer-img img {
-    width: 100%;
-    height: 100%;
-    padding: 2px;
-    border-radius: 25px;
-
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  border-radius: 25px;
 }
 
 .offers .offer .offer-content {
-    margin-top: 25px;
-    margin-bottom: 35px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .all-offers button {
-    padding: 10px 25px;
-    border-radius: 20px;
-    font-size: 30px;
-    background-color: #0099FF;
-    font-weight: bold;
-    color: white
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: #0099ff;
+  font-weight: bold;
+  color: white;
 }
 
 .space {
-    height: 450px
+  height: 450px;
 }
 
 .slogo span {
-    color: #0099FF;
+  color: #0099ff;
 }
 
 .slogo p {
-    font-weight: bold;
-    font-size: 29px;
+  font-weight: bold;
+  font-size: 29px;
 }
 
 .about-us {
-    background-color: #0099ff;
-    color: white;
-    font-weight: bold;
-    font-size: 29px;
-    text-align: center;
-    padding: 70px 0;
-
+  background-color: #0099ff;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  padding: 70px 0;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-    font-size: 30px;
-    font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .shape-selection .shape-item {
@@ -330,8 +327,8 @@ footer {
   margin-bottom: 20px;
 }
 .shape-selection .shape-item h3 {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .why-buy .row {
@@ -354,13 +351,13 @@ footer {
   font-weight: bold;
 }
 
-.phone-numbers-prices  {
-    width: 90%;
-    margin: 70px auto;
+.phone-numbers-prices {
+  width: 90%;
+  margin: 70px auto;
 }
 
 .phone-number-price {
-  background-color: #DBF1FF;
+  background-color: #dbf1ff;
   border: 2px solid #1161ac;
   padding: 30px;
   position: relative;
@@ -391,14 +388,13 @@ footer {
   color: #fff;
   font-size: 30px;
   font-weight: bold;
-
 }
 .v-number {
-  background: #C80000;
+  background: #c80000;
   margin-top: 22px !important;
 }
 .o-number {
-  background: #FB5000;
+  background: #fb5000;
 }
 
 .e-number {
@@ -412,4 +408,75 @@ footer {
   border-radius: 25px;
   background-color: #0099ff;
   font-size: 25px;
+}
+
+/* customers */
+.customers {
+  background: #c6e9ff;
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+  border-radius: 50px;
+  border-bottom: 5px solid #09f;
+  border-right: 3px solid #09f;
+}
+.customers legend {
+  text-align: right;
+  background-color: #09f;
+  width: 22%;
+  border-radius: 25px;
+  padding: 1px 3px 3px 1px;
+}
+
+.customers legend span {
+  display: block;
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px 15px;
+}
+
+.customers .bio {
+  background-color: white;
+  border: 2px solid #09f;
+  width: 57%;
+  position: absolute;
+  right: 25%;
+  border-radius: 25px;
+  padding: 0px 10px;
+  top: -10%;
+}
+
+.customers .bio .bio-content {
+  align-self: center;
+}
+
+.customers .bio .bio-content i {
+  height: 16px;
+  padding-top: 10px;
+  color: #09f;
+}
+
+.customers .bio .bio-content span {
+  padding: 5px 7px;
+}
+
+.customers .content {
+  width: 70%;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.customers .content-img {
+  border-radius: 50%;
+  margin-left: 40px;
+  background-color: #09f;
+  height: 208px;
+}
+
+.customers .content-img img {
+  border-radius: 50%;
+  background-color: white;
+  padding: 2px;
 }
