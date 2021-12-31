@@ -145,6 +145,30 @@ nav .nav-res i {
   margin-top: 40px;
 
 }
+.network .card-net .see-more {
+  position: absolute;
+  left: -15px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 3px 20px;
+
+}
+
+.card-net-vodafone .see-more {
+  background-color: #fe2346;
+}
+.card-net-orange .see-more {
+  background-color: #fc580e;
+}
+.card-net-etisalat .see-more {
+  background-color: #699800;
+}
+.card-net-we .see-more {
+  background-color: #8244a2;
+}
+
+
 .card-net-vodafone,
 .card-net-orange,
 .card-net-etisalat,
@@ -155,7 +179,6 @@ nav .nav-res i {
   border-bottom-left-radius: 3px;
   height: 350px;
   text-align: right;
-  
 }
 .card-net-vodafone {
   border: 2px solid #fe2346;
