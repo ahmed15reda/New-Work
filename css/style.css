@@ -142,6 +142,8 @@ nav .nav-res i {
   width: 22%;
   margin: 0 15px;
   padding: 15px 20px;
+  margin-top: 40px;
+
 }
 .card-net-vodafone,
 .card-net-orange,
@@ -153,6 +155,7 @@ nav .nav-res i {
   border-bottom-left-radius: 3px;
   height: 350px;
   text-align: right;
+  
 }
 .card-net-vodafone {
   border: 2px solid #fe2346;
@@ -226,8 +229,8 @@ nav .nav-res i {
 }
 
 .cash .cash-card {
-  width: 225px;
-  height: 175px;
+  width: 22%;
+  height: 220px; 
   border-radius: 20px;
   border: 2px solid #bdbcba;
   padding: 0px;
@@ -258,7 +261,7 @@ nav .nav-res i {
   border-radius: 25px;
   font-weight: bold;
   text-align: center;
-  font-size: 27px;
+  font-size: 23px;
   line-height: 1;
   width: 30%;
 }
@@ -327,7 +330,7 @@ footer {
   margin-bottom: 20px;
 }
 .shape-selection .shape-item h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -346,7 +349,7 @@ footer {
   border: 3px solid #009afc;
   border-radius: 40px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.5;
   font-weight: bold;
 }
@@ -359,7 +362,7 @@ footer {
 .phone-number-price {
   background-color: #dbf1ff;
   border: 2px solid #1161ac;
-  padding: 30px;
+  padding: 45px 20px;
   position: relative;
   border-radius: 30px;
   transform: skew(-7deg);
@@ -378,7 +381,7 @@ footer {
   font-size: 30px;
   font-weight: bold;
   right: 5px;
-  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .phone-number-price p {
@@ -414,7 +417,7 @@ footer {
 .customers {
   background: #c6e9ff;
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: 0px auto;
   border-radius: 50px;
   border-bottom: 5px solid #09f;
@@ -423,7 +426,7 @@ footer {
 .customers legend {
   text-align: right;
   background-color: #09f;
-  width: 22%;
+  width: 25%;
   border-radius: 25px;
   padding: 1px 3px 3px 1px;
 }
@@ -467,6 +470,8 @@ footer {
   font-size: 30px;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: 20px;
+
 }
 .customers .content-img {
   border-radius: 50%;
@@ -480,3 +485,81 @@ footer {
   background-color: white;
   padding: 2px;
 }
+
+
+.carousel {
+  margin-top: 50px;
+}
+.carousel-inner {
+  height: 450px;
+}
+.carousel-caption {
+  color: #000;
+  top: 50%;
+}
+
+.carousel-caption .more{
+  display: flex;
+  margin-top: 10px;
+  margin-right: 45px;
+
+}
+
+.carousel-caption .more span {
+  width: 25px;
+  height: 15px;
+  background-color: #09f;
+  border-radius: 10px;
+  margin: 20px 15px 0px;
+
+}
+
+.carousel-caption .more .btn {
+  background-color: #09f;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 5px 25px;
+
+}
+
+.steps {
+  width: 60%;
+  margin: 0 auto;
+  
+}
+
+.steps .step{
+  background-image: url('../img/image.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.steps .step .step-1{
+  position: absolute;
+  right: 24%;
+  top: 50%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #7A048A;
+
+}
+
+.steps .step .step-2 {
+  position: absolute;
+  left: 13%;
+  top: 50%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: #639801;
+
+}
+
+
+
