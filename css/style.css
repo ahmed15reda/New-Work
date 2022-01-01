@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Noto Sans Arabic', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .clear {
@@ -143,7 +143,6 @@ nav .nav-res i {
   margin: 0 15px;
   padding: 15px 20px;
   margin-top: 40px;
-
 }
 .network .card-net .see-more {
   position: absolute;
@@ -152,7 +151,6 @@ nav .nav-res i {
   color: white;
   font-size: 24px;
   padding: 3px 20px;
-
 }
 
 .card-net-vodafone .see-more {
@@ -167,7 +165,6 @@ nav .nav-res i {
 .card-net-we .see-more {
   background-color: #8244a2;
 }
-
 
 .card-net-vodafone,
 .card-net-orange,
@@ -253,7 +250,7 @@ nav .nav-res i {
 
 .cash .cash-card {
   width: 22%;
-  height: 220px; 
+  height: 220px;
   border-radius: 20px;
   border: 2px solid #bdbcba;
   padding: 0px;
@@ -287,6 +284,7 @@ nav .nav-res i {
   font-size: 23px;
   line-height: 1;
   width: 30%;
+  
 }
 
 .offers .offer .offer-img {
@@ -356,17 +354,21 @@ footer {
   font-size: 30px;
   font-weight: bold;
 }
+.why-buy {
+  width: 90%;
+  margin: 50px auto;
+}
 
-.why-buy .row {
-  align-items: center;
+.why-buy .why-buy-image {
+  width: 50%;
 }
 
 .why-buy .why-buy-image img {
   display: block;
   float: left;
-  width: 85%;
 }
 .why-buy .why-buy-text {
+  width: 50%;
   padding: 57px;
   background: #d4eeff;
   border: 3px solid #009afc;
@@ -494,7 +496,6 @@ footer {
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 20px;
-
 }
 .customers .content-img {
   border-radius: 50%;
@@ -509,7 +510,6 @@ footer {
   padding: 2px;
 }
 
-
 .carousel {
   margin-top: 50px;
 }
@@ -521,11 +521,10 @@ footer {
   top: 50%;
 }
 
-.carousel-caption .more{
+.carousel-caption .more {
   display: flex;
   margin-top: 10px;
   margin-right: 45px;
-
 }
 
 .carousel-caption .more span {
@@ -534,7 +533,6 @@ footer {
   background-color: #09f;
   border-radius: 10px;
   margin: 20px 15px 0px;
-
 }
 
 .carousel-caption .more .btn {
@@ -544,45 +542,99 @@ footer {
   font-weight: bold;
   font-size: 23px;
   padding: 5px 25px;
-
 }
 
 .steps {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
-  
 }
 
-.steps .step{
-  background-image: url('../img/image.jpg');
-  height: 400px;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
+.steps .step {
   position: relative;
-}
+} 
 
-.steps .step .step-1{
+.steps .step .step-1 {
   position: absolute;
-  right: 24%;
-  top: 50%;
+  right: 23%;
+  top: 44%;
   text-align: center;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
-  color: #7A048A;
-
+  color: #7a048a;
 }
 
 .steps .step .step-2 {
   position: absolute;
-  left: 13%;
-  top: 50%;
+  left: 11%;
+  top: 44%;
   text-align: center;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
   color: #639801;
+}
+
+@media (max-width: 1444px) {
+  .network .card-net,
+  .phone-number-price {
+    width: 35%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 930px) {
+  .phone-number-price {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 878px) {
+  .network .card-net {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 1100px) {
+  .why-buy .why-buy-image,
+  .why-buy .why-buy-text {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cash .cash-card {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 1030px) {
+  .offers {
+    justify-content: space-around;
+  }
+  .offers .offer {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  .offers .all-offers {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 890px) {
+  .cash .cash-card {
+    width: 45% !important;
+  }
+  .offers .offer {
+    width: 70%;
+  }
 
 }
 
+@media (max-width: 640px) {
+  .cash .cash-card {
+    width: 60% !important;
+  }
+}
 
 
