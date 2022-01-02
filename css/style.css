@@ -307,6 +307,7 @@ footer {
 }
 
 .shape-selection .shape-item {
+  width: auto;
   background: #0099ff;
   border-radius: 40px;
   padding: 10px 35px;
@@ -315,7 +316,7 @@ footer {
   margin-bottom: 20px;
 }
 .shape-selection .shape-item h3 {
-  font-size: 30px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 .why-buy {
@@ -367,7 +368,7 @@ footer {
   color: #fff;
   position: absolute;
   top: 10px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   right: 5px;
   margin-top: 10px;
@@ -466,6 +467,7 @@ footer {
   border-radius: 50%;
   margin-top: 6%;
   height: 208px;
+  margin-right: 30px;
 }
 
 .customers .content-img img {
@@ -508,31 +510,38 @@ footer {
 
 .steps {
   width: 70%;
-  margin: 0 auto;
 }
 
 .steps .step {
   position: relative;
 }
 
+.steps .step img {
+  width: 135%;
+}
 .steps .step .step-1 {
   position: absolute;
-  right: 23%;
-  top: 44%;
+  right: 30%;
+  top: 42%;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   color: #7a048a;
 }
 
 .steps .step .step-2 {
   position: absolute;
-  left: 11%;
-  top: 44%;
+  left: -19%;
+  top: 42%;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   color: #639801;
+}
+
+
+.carousel-inner {
+  overflow: visible;
 }
 
 @media (max-width: 1444px) {
@@ -546,6 +555,7 @@ footer {
 @media (max-width: 1370px) {
   .customers legend {
     text-align: center;
+    width: 30%;
   }
   .customers .bio {
     top: 0;
@@ -556,19 +566,19 @@ footer {
   .phone-number-price {
     width: 70% !important;
   }
+  .carousel-caption .more .btn {
+    font-size: 17px;
+
+  }
+  .carousel-caption .more span{
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 878px) {
   .network .card-net {
     width: 70%;
     margin: 20px auto;
-  }
-}
-
-@media (max-width: 1100px) {
-  .why-buy .why-buy-image,
-  .why-buy .why-buy-text {
-    width: 90% !important;
   }
 }
 
@@ -579,6 +589,11 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  .why-buy .why-buy-image,
+  .why-buy .why-buy-text {
+    width: 90% !important;
+  }
+
   .customers .content {
     width: 100%;
     margin-top: 80px;
@@ -617,9 +632,60 @@ footer {
     margin-bottom: 0;
   }
   .customers .content-img {
-    margin-top: 0;
+    margin-top: 50px;
+  }
+  .customers .content-img img {
+    width: 105%;
+  }
+
+}
+@media (max-width: 1080px){
+  .customers legend {
+    width: 35%;
+  }
+  .customers .bio{
+    width: 90%;
+    right: 5%;
   }
 }
+@media (max-width: 992px){
+  .customers .content-img {
+    margin-right: 0;
+    margin-top: 15px;
+
+  }
+  .customers .content-img img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .customers .content-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 926px){
+  .customers legend{
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .customers legend {
+    width: 70%;
+  }
+}
+
+@media (max-width: 465px) {
+  .customers legend {
+    width: 80%;
+  }
+}
+
+
+
 
 @media (max-width: 892px) {
   .cash .cash-card {
@@ -634,6 +700,96 @@ footer {
     left: 25%;
   }
 }
+@media (max-width: 772px) {
+  .steps .step .step-1, .steps .step .step-2 {
+    font-size: 23px;
+  }
+
+}
+@media (max-width: 720px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 700px){
+  .carousel-caption .more{
+    justify-content: center;
+  }
+  .carousel-caption .more span {
+    display: none;
+  }
+}
+
+@media (max-width: 590px) {
+  .carousel {
+    margin-bottom: 100px;
+  }
+  
+}
+@media (max-width: 465px){
+  .customers .content {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 444px) {
+  .tools h1 {
+    font-size: 30px;
+    margin-top: 150px;
+  }
+  .carousel-caption .more .btn {
+    font-size: 15px;
+  }
+
+}
+
+
+@media (max-width: 640px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 18px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 580px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 475px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 440px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 14px;
+    line-height: 0.7;
+  }
+  .steps .step .step-1{
+    right: 28%;
+  }
+  .steps .step .step-2 {
+    left: -22%;
+  }
+
+}
+
+@media (max-width: 440px) {
+  .steps .step .step-1,
+  .steps .step .step-2 {
+    font-size: 12px;
+  }
+  
+}
 
 @media (max-width: 640px) {
   .cash .cash-card {
@@ -645,7 +801,19 @@ footer {
   .customers .content {
     font-size: 23px;
   }
-  .customers .content-img img {
-    width: 35%;
+
+}
+
+@media (max-width: 410px){
+  .phone-number-price h6,.phone-number-price p, .phone-number-price .more {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .phone-number-price h6,
+  .phone-number-price p,
+  .phone-number-price .more {
+    font-size: 16px;
   }
 }
